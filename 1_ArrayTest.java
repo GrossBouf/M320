@@ -18,9 +18,16 @@ public class ArrayTest {
 		 * aller Zahlen des Arrays
 		 */
 		int[] zahl = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
-		for(int = )
+		int zahlSumme = 0
+		for(int i = 0; i< zahl.length; i + 2) {
+			System.out.println(zahl[i])
 
+		}
 
+		for(int i = 0; i< zahl.length; i + 2) {
+			sum + zahl[i];
+		}
+		System.out.println("Summe des Array zahl:" + sum);
 		/*
 		 * Mit printf kann die Ausgabe formatiert werden.
 		 * %ist der Beginn der jeweiligen Formatierung
