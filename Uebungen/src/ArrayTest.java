@@ -1,4 +1,6 @@
-public class ArrayTest  {
+package uebung;
+
+public class ArrayTest {
 
     public static void main(String[] args) {
         // TODO Auto-generated method stub
@@ -17,17 +19,17 @@ public class ArrayTest  {
          * Geben Sie nur jede zweite Zahl auf dem Bildschirm aus und am Ende die Summe
          * aller Zahlen des Arrays
          */
-        int[] zahl = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
-        int zahlSumme = 0;
-        for(int i = 0; i< zahl.length; i += 2) {
-            System.out.println(zahl[i]);
+        int[] numbers = {1,2,3,4,5,6,7,8,9,10};
+        int numbersum = 0;
 
+        for (int i = 0; i < numbers.length; i++ ) {
+            if(numbers[i]%2 == 0){
+                System.out.println(i);
+            }
+            numbersum+=numbers[i];
         }
+        System.out.println(numbersum);
 
-        for(int i = 0; i< zahl.length; i += 2) {
-            zahlSumme += zahl[i];
-        }
-        System.out.println("Summe des Array zahl:" + sum);
         /*
          * Mit printf kann die Ausgabe formatiert werden.
          * %ist der Beginn der jeweiligen Formatierung
