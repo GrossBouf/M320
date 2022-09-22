@@ -1,5 +1,3 @@
-package uebung;
-
 public class KontoTest {
     public static void main(String[] args) {
         Konto k1=new Konto();
@@ -10,7 +8,7 @@ public class KontoTest {
 
         k2.setSaldo(1000);
         System.out.println(k2.getSaldo());
-        k2.zahleAus(1000);
+        k2.zahleAus(100);
         System.out.println(k2.getSaldo());
 
         System.out.println(k1.getKontonummer());

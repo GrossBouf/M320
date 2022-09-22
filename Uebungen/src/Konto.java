@@ -1,6 +1,4 @@
-package uebung;
-
-public class Konto {
+      public class Konto {
     private int kontonummer;
     private double saldo;
 

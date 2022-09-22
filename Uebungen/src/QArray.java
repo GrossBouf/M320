@@ -1,5 +1,3 @@
-package uebung;
-
 import java.util.Arrays;
 
 public class QArray {

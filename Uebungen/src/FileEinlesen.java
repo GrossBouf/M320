@@ -1,6 +1,3 @@
-package uebung;
-
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.regex.*;
 import java.io.File;
@@ -12,8 +9,8 @@ import java.util.Scanner;
 public class FileEinlesen {
 
     public static void main(String[] args) throws IOException {
-        String name = "D:/5_daten/Modull 320/uebungen/uebung/in.txt";
-        String sokobanlevel = "D:/5_daten/Modull 320/uebungen/uebung/level2.txt";
+        String name = "C:\\Users\\demie\\IdeaProjects\\M320\\Uebungen\\src\\text\\in.txt";
+        String sokobanlevel = "C:\\Users\\demie\\IdeaProjects\\M320\\Uebungen\\src\\text\\level2.txt";
 
         FileInputStream ein = new FileInputStream(name);
         int zeichen;
